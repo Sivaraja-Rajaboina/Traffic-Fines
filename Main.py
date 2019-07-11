@@ -26,9 +26,10 @@ def printViolators (driverhash):
     file.close
 
 
+
 initializeHash()
 insertHash(3,"l123")
 insertHash(4,"l124")
 insertHash(1,"l125")
 insertHash(3,"l126")
-printViolators(3)
+printViolators(10)
